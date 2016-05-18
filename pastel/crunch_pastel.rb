@@ -1,6 +1,6 @@
 require 'csv'
 require 'pry'
-USD_TO_ZAR = 15.91
+USD_TO_ZAR = 12.77
 @csv = CSV.table('report.csv')
 
 @expenses = Hash.new(0)
